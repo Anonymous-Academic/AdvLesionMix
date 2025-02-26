@@ -10,7 +10,6 @@ import torch.nn.functional as F
 import torch.nn as nn
 from torch.autograd import Variable
 import numpy as np
-import bagnets.pytorchnet
 from skimage import feature as skif
 import torch.nn.functional as F
 import random
