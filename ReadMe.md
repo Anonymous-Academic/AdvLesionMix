@@ -53,7 +53,7 @@ dataset folder
 * (3) modify the path in `utils.py` to the dataset folders.
 
 ### Training
-* Extract the pre-trained CycleGAN weights
+* Extract the pre-trained CycleGAN weights:
 ```
 cd CycleGan_weights/weights
 cat netG_A2B_part_* > netG_A2B.tar.gz
@@ -61,12 +61,12 @@ tar -xzvf netG_A2B.tar.gz
 cd ..
 cd ..
 ```
-* For baselines
+* For baselines:
 ```
 chmod +x run_baseline.sh
 ./run_baseline.sh
 ```
-* For the proposed approach
+* For the proposed approach:
 ```
 chmod +x run_proposed.sh
 ./run_proposed.sh
